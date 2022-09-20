@@ -1,0 +1,78 @@
+/* <!-- FONTS--> */
+@font-face {
+    font-family: miFuente1;
+    src: url("../css/fonts/BACKCOUNTRY-Regular.ttf");
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url("../css/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: miFuente2;
+    src: url("../css/fonts/Mont-HeavyDEMO.otf");
+}
+
+@font-face {
+    font-family: miFuente3;
+    src: url("../css/fonts/Mont-ExtraLightDEMO.otf");
+}
+
+
+/* <!-- body--> */
+body{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("../media/pexels-eberhard-grossgasteiger-2310647.png");
+}
+
+
+/* <!-- OXARD LOGO--> */
+h1 {
+    margin-left: 35px;
+    font-size: 80px;
+    color: #ff2e5f;
+    font-family: miFuente2;
+}
+
+
+
+/* <!-- HEADER--> */
+header{
+height: 80px;
+
+}
+
+/* <!-- MAIN--> */
+main{
+    margin-top: 70px;
+    
+}
+
+/* <!-- LINKS NAV--> */
+a{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+/* <!-- HOVER--> */
+header nav a:hover{
+    background-color: #ff2e5f;
+}
+
+
+/* <!-- FOOTER--> */
+
+footer{
+    height: 250px;
+margin-top: 10px;
+background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
+
+}
+
+footer img{
+margin-left: 120px;
+    height: 50px;
+}
