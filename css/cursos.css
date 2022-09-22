@@ -1,0 +1,121 @@
+/* <!-- FONTS--> */
+@font-face {
+    font-family: miFuente1;
+    src: url("../css/fonts/BACKCOUNTRY-Regular.ttf");
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url("../css/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: miFuente2;
+    src: url("../css/fonts/Mont-HeavyDEMO.otf");
+}
+
+@font-face {
+    font-family: miFuente3;
+    src: url("../css/fonts/Mont-ExtraLightDEMO.otf");
+}
+
+
+
+
+
+/* <!-- body--> */
+#body{
+    background-position: center;
+    position: relative;
+    background-image: url("./media/body.jpg");
+    overflow-x: hidden;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+
+#header{
+    background-color: black !important;
+}
+
+
+#carouselExampleCaptions{
+    width: 90vw;
+    margin-left:50px !important;
+}
+
+#header nav{
+   
+    display: flex;
+    height: 60px;
+}
+
+#body nav img{
+    margin-bottom: 110px;
+    margin-left: 500px;
+    width: 25px;
+height: 25px;
+}
+
+main{
+    
+    
+}
+
+.carousel-inner{
+
+    height: 600px !important;
+
+}
+
+/* <!-- OXARD LOGO--> */
+h1 {
+   padding-bottom: 150px !important;
+    font-size: 40px;
+    color: #386dbd;
+    font-family: miFuente2;
+}
+
+
+
+form{
+    margin-right: 20px;
+}
+
+
+/* <!-- HEADER--> */
+
+#header nav a{
+    margin-right: 30px !important;
+}
+    
+
+
+
+
+/* <!-- LINKS NAV--> */
+
+/* <!-- HOVER--> */
+header nav a:hover{
+    border-radius: 0px;
+    background-color: #ff2e5f;
+    color: #ff2e5f;
+}
+
+
+/* <!-- FOOTER--> */
+
+footer{
+    height: 150px;
+background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
+
+}
+
+footer img{
+margin-left: 120px;
+    height: 50px;
+}
+
