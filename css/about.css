@@ -20,54 +20,95 @@
 }
 
 
+
+
+
 /* <!-- body--> */
-body{
+#body{
     background-position: center;
-    background-size: cover;
     position: relative;
-    background-image: url("../media/pexels-eberhard-grossgasteiger-2310647.png");
+    background-image: url("./media/body.jpg");
+    overflow-x: hidden;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+#header{
+    background-color: black !important;
 }
 
 
+#carouselExampleCaptions{
+    width: 90vw;
+    margin-left:50px !important;
+}
+
+#header nav{
+   
+    display: flex;
+    height: 60px;
+}
+
+#body nav img{
+    margin-bottom: 110px;
+    margin-left: 500px;
+    width: 25px;
+height: 25px;
+}
+
+main{
+    
+    
+}
+
+.carousel-inner{
+
+    height: 600px !important;
+
+}
+
 /* <!-- OXARD LOGO--> */
 h1 {
-    margin-left: 35px;
-    font-size: 80px;
-    color: #ff2e5f;
+   padding-bottom: 150px !important;
+    font-size: 40px;
+    color: #000000;
     font-family: miFuente2;
 }
 
 
 
+form{
+    margin-right: 20px;
+}
+
+
 /* <!-- HEADER--> */
-header{
-height: 80px;
 
+#header nav a{
+    margin-right: 30px !important;
 }
-
-/* <!-- MAIN--> */
-main{
-    margin-top: 70px;
     
-}
+
+
+
 
 /* <!-- LINKS NAV--> */
-a{
-    margin-left: 20px;
-    margin-right: 50px;
-}
 
 /* <!-- HOVER--> */
 header nav a:hover{
+    border-radius: 0px;
     background-color: #ff2e5f;
+    color: #ff2e5f;
 }
 
 
 /* <!-- FOOTER--> */
 
 footer{
-    height: 250px;
-margin-top: 10px;
+    height: 150px;
 background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
 
 }
@@ -76,3 +117,4 @@ footer img{
 margin-left: 120px;
     height: 50px;
 }
+
