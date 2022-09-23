@@ -27,7 +27,7 @@
 #body{
     background-position: center;
     position: relative;
-    background-image: url("./media/body.jpg");
+    background-image: url("../media/body.jpg");
     overflow-x: hidden;
     width: 80vw;
     height: 100vh;
@@ -74,7 +74,7 @@ main{
 h1 {
    padding-bottom: 150px !important;
     font-size: 40px;
-    color: #ff2e5f;
+    color: #1c31a5;
     font-family: miFuente2;
 }
 

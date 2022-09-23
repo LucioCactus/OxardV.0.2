@@ -27,7 +27,7 @@
 #body{
     background-position: center;
     position: relative;
-    background-image: url("./media/body.jpg");
+    background-image: url("../media/body.jpg");
     overflow-x: hidden;
     width: 80vw;
     height: 100vh;
@@ -59,10 +59,15 @@
 height: 25px;
 }
 
-main{
+
+    main{
+ 
+        margin-top: 60px !important;
+        height: 100vh;
+    }
     
     
-}
+
 
 .carousel-inner{
 
@@ -78,7 +83,10 @@ h1 {
     font-family: miFuente2;
 }
 
-
+#main img{
+    margin-right: 10px;
+    width: 50px;
+}
 
 form{
     margin-right: 20px;
@@ -104,17 +112,4 @@ header nav a:hover{
     color: #ff2e5f;
 }
 
-
-/* <!-- FOOTER--> */
-
-footer{
-    height: 150px;
-background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
-
-}
-
-footer img{
-margin-left: 120px;
-    height: 50px;
-}
 
